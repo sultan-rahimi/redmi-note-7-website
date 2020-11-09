@@ -1,0 +1,529 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display:inline-flex;
+    background-color: gainsboro;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    text-align: center;
+    margin: auto;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.searchbar {
+    text-align: center;
+    margin-top: 1.65cm;
+}
+
+.searchbar input {
+    width: 100%;
+}
+
+.column-header {
+    flex: auto;
+}
+
+.main-nav {
+    list-style: none;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-top: 1.5cm;   
+}
+
+a.toached {
+    color: black;
+}
+
+a.toached:visited {
+    color: black;
+}
+
+a.toached:hover {
+    color: blue;
+}
+
+.main-nav li a {
+    float: right;
+    color: rebeccapurple;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    color: azure;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin-top: 0;
+}
+
+body {
+    font-family: monospace;
+}
+
+.row {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#home {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(photo/background.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.hero {
+    position: absolute;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    vertical-align: middle;
+}
+
+h1 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family: mistral;
+    text-align: center;
+    margin-top: 275px;
+    width: 100%;
+}
+
+.button {
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#introduction {
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(https://coolbackgrounds.io/images/backgrounds/white/white-radial-gradient-a5802da1.jpg.PNG);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    vertical-align: middle;
+}
+
+#redmi {
+    height: 300px;
+    width: 400px;
+}
+
+.main-dev {
+    float: right;
+}
+
+.head-3{
+    padding: 10px;
+    font-size: 36px;
+    font-family: Bookman Old Style;
+    color: cornflowerblue;
+    padding-bottom: 20px;
+}
+
+.p-introduction {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 24px;
+    font-family: Bookman Old Style;
+    font-style: oblique;
+    text-emphasis-position: below;
+}
+
+.technicalParameter {
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(https://coolbackgrounds.io/images/backgrounds/white/white-radial-gradient-a5802da1.jpg.PNG);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+h3 {
+    font-size: 36px;
+    font-family:serif;
+    font-style: normal, bold;
+    color: grey;
+}
+
+a.toached:active {
+    color: white !important;
+}
+
+.custom-row {
+    padding-top: 50px;
+    display:-webkit-flex;
+    -webkit-justify-content:center;
+
+    display:flex;
+    justify-content:center;
+    vertical-align: middle;
+}
+
+.column {
+    padding: 50px;
+    text-align: center;
+    vertical-align:middle;
+    font-family: cursive;
+    font-style: normal;
+    font-size: 14px;
+}
+
+table { 
+    margin-top: 40px;
+    border-collapse: collapse; 
+}
+
+table td {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.picture-access {
+    padding-top: 70px;
+    display: flex;
+}
+
+.picture4 {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-style: oblique;
+    padding: 70px;
+    flex: 1;
+    text-align: center;
+    vertical-align:text-top;
+}
+
+.p-access a:hover {
+    background-color: lightgrey;
+    color: blue;
+}
+
+.a-price {
+    text-decoration: none;
+}
+
+.price-comparison {
+    text-align: center;
+}
+
+.price {
+    padding-top: 100px;
+    padding: 100px;
+    display: inline-flex;
+    flex: auto;
+}
+
+.price-column {
+    flex: auto;
+}
+
+.compare-row {
+    display: inline-block;
+    width: 100%;
+}
+.compare-column{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn {
+  background-color: gray;
+  color: white;
+  padding: 8px;
+  font-size: 12px;
+  border: none;
+  outline: none;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: gray;
+  min-width: 100px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.btn:hover, .dropdown:hover .btn {
+  background-color: black;
+}
+
+.custom-row {
+    -webkit-flex:1;
+    flex:1;
+}
+
+#first-photo {
+    padding-left: 50px;
+}
+
+h4 {
+    margin-left: 120px;
+    text-align: left;
+    color: firebrick;
+    font-size: 24px;
+}
+
+.model-compare-title {
+    margin-bottom: 40px;
+    text-align: left;
+    margin-left: 0px;
+}
+
+.phone-comparision-text {
+    text-align: left;
+    line-height: 2;
+    color: darkgreen;
+}
+
+p span {
+    display: block;
+}
+
+.scroll-comments {
+  overflow-y: scroll;
+  height: 400px;
+  width: 100%;
+
+}
+
+.scroll {
+    width: 30em;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.pblue {
+    text-align: center;
+    font-family: cursive;
+}
+
+.pred {
+    text-align: center;
+    font-family: cursive;
+}
+
+.pblack {
+    text-align: center;
+    font-family: cursive;
+}
+
+.com {
+    padding-top: 100px;
+    display: flex;
+}
+
+.picture7-8 {
+    padding: 50px;
+    flex: 50%;
+    text-align: center;
+}
+
+.redmiseven {
+    text-align: left;
+}
+
+.redseven {
+    font-family: sans-serif;
+    color: darkgreen;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+.redmieight {
+    text-align: right;
+}
+
+h2 {
+    font-family: fantasy;
+    font-size: 44px;
+    color: darkblue;
+}
+
+h3 {
+    font-family: cursive;
+    font-size: 34px;
+    color: dimgray;
+}
+
+.comment {
+    border: solid;
+    border-color: gray;
+    text-align: left;
+}
+
+.comment-user {
+    text-align: left;
+}
+
+.media {
+    padding: 100px;
+    padding-left: 15px;
+    padding-right: none;
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.btn-one {
+    background-color: darkorange;
+    font-family: "roboto",sans-serif;
+}
+
+.btn-two {
+    font-family: "roboto",sans-serif;
+}
+.btn-two :hover {
+    background-color: darkorange;
+    transition: all 0.5s easa-in;
+}
+
+#introduction {
+    vertical-align: middle !important;
+}
+
+@media screen and (max-width:768px) {
+    header {
+        text-align: center;
+        display: block;
+        width: 100%;
+        position: relative; 
+    }
+    
+    .custom-row {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+    .column {
+        padding-top: 0px;
+    }
+    
+    .searchbar {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    .searchbar input {
+        height: 40px;
+    }
+    
+    .nav-link {
+        width: 100%;
+    }
+    
+    .main-nav {
+        width: 100%;
+    }
+    
+    .main-nav ul {
+        width: 100%;
+    }
+    
+    .main-nav li {
+        border: 1px solid gray;
+        text-align: center !important;
+        width: 100%;
+        margin-top: 2px;
+        padding: 10px;
+    }
+
+    .main-nav li a {
+        float: none;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+    .btn {
+        font-size: 11px;
+    }
+
+    #main-title {
+        font-size: 30px;
+        margin-top: 230px;
+    }
+
+    #redmi {
+        height: 260px;
+        width: 400px;
+    }
+
+    .head-3{
+        font-size: 30px;
+        padding-bottom: 12px;
+    }
+
+    .p-introduction {
+        font-size: 20px;
+    }
+
+    .picture-access {
+        display: block;
+    }
+
+    .detail-img {
+        height: 200px;
+        width: 100px;
+    }
+
+    #detail-table {
+        font-size: 11px;
+    }
+
+    .price {
+        display: block;
+    }
+    
+    .phone-comparision-text .phone-comparsion-pre {
+        font-size: 12px !important;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    .comments {
+        width: 100%;
+    }
+
+}
